@@ -1,0 +1,11 @@
+.outerContainer {
+  background-color: #5858e3;
+}
+
+.container {
+  background: #ffffff;
+  border-radius: 30px;
+  font-family: monospace;
+  font-size: 15px;
+}
+

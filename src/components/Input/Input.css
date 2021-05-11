@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  border-top: 2px solid #d3d3d3;
+}
+
+.input {
+  border: none;
+  width: 90%;
+  font-size: 16px;
+  word-wrap: normal;
+  overflow-x: hidden;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+textarea{
+  resize: none;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #000000;
+  display: inline-block;
+  border: none;
+  width: 15%;
+  min-width: 100px;
+  font-family: monospace;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.sendButton:hover {
+  cursor: pointer;
+}
+
+.send{
+  min-width: 50px;
+}
